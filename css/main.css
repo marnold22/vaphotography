@@ -1,0 +1,65 @@
+/* CSS for VAPhotography */
+
+* { 
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+}
+
+.logo {
+  position: fixed; 
+	top: 0; 
+  left: 0;
+  padding: 1rem;
+}
+
+.logo-size{
+  height: 100px;
+  width: 200px;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/camera-1.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.coming-soon {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+hr {
+  margin: auto;
+  margin-top: 1.5rem;
+  width: 40%;
+}
+
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 375px) {
+  .logo {
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    padding: 0;
+    padding-top: 1rem;
+  }
+
+  .logo-size{
+    height: 50px;
+    width: 100px;
+  }
+}
