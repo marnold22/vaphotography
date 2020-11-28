@@ -11,6 +11,15 @@ body, html {
   max-width: 75px;
 }
 
+.logo-mobile {
+  height: 45px;
+  width: 60px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
 .w3-bar-item {
   color: white;
   pointer-events: auto;
@@ -24,7 +33,7 @@ body, html {
   transition: 200ms linear;
 }
 
-.customBackground {
+.navBackground {
   background-color: rgba(0, 0, 0, 0.3);
   transition: background-color 400ms linear;
 }
@@ -76,9 +85,14 @@ body, html {
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
+
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1600px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
+  .bgimg-1 {
+    background-attachment: scroll;
+    min-height: 100%;
+  }
+  .bgimg-2, .bgimg-3 {
     background-attachment: scroll;
     min-height: 400px;
   }
