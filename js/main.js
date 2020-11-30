@@ -56,6 +56,13 @@ $(window).scroll(function () {
   }
 });
 
+// Disable rightclick on images
+$(document).ready(function() {
+    $('img').bind('contextmenu', function(e){
+        return false;
+    }); 
+});
+
 
 // Modal Image Gallery
 function indexDisplay(element) {
