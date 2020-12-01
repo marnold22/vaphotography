@@ -6,7 +6,7 @@
 
 <body>
 <!-- INCLUDE NAVBAR -->
-<?php include 'modules/homeNav.php' ?>
+<?php include 'modules/galleryNav.php' ?>
 
 <!-- INCLUDE LIGHTBOX -->
 <?php include 'modules/galleryLightbox.php' ?>
