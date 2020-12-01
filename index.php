@@ -1,48 +1,14 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <title>VA_Photography</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
-    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/gallery.css">
-
-  <!-- FAVICONS -->
-  <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
-  <link rel="manifest" href="favicon_io/site.webmanifest">
-</head>
+<!-- INCLUDE HEADER -->
+<?php include 'modules/header.php' ?>
 
 <body>
 
-  <!-- Navbar (sit on top) -->
-  <div class="w3-top">
-    <div id="navHome" class="w3-bar w3-large navBackground">
-      <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" onclick="toggleMobileMenu()"
-        title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-      <a class="w3-hide-medium w3-hide-large" onClick="window.scroll({ top: 0,left: 0,behavior: 'smooth' });"><img
-          class="logo-mobile" src="/assets/logo/VAP-Logo-White.png"></a>
-      <a class="w3-bar-item w3-hide-small w3-right" onclick="contactScroll()">CONTACT</a>
-      <a class="w3-bar-item w3-hide-small w3-right" onclick="portfolioScroll()">GALLERY</a>
-      <a class="w3-bar-item w3-hide-small w3-right" onclick="aboutScroll()">ABOUT</a>
-      <a class="w3-bar-item w3-hide-small" onClick="window.scroll({ top: 0,left: 0,behavior: 'smooth' });"><img
-          class="logo" src="/assets/logo/VAP-Logo-White.png"></a>
-    </div>
+  <!-- INCLUDE NAVBAR -->
+  <?php include 'modules/homeNav.php' ?>
 
-    <!-- Navbar on mobile screens -->
-    <div id="navMobile" class="w3-bar-block w3-dark-grey w3-hide w3-hide-large w3-hide-medium">
-      <a class="w3-bar-item w3-button" onclick="aboutMobile()">ABOUT</a>
-      <a class="w3-bar-item w3-button" onclick="portfolioMobile()">GALLERY</a>
-      <a class="w3-bar-item w3-button" onclick="contactMobile()">CONTACT</a>
-    </div>
-  </div>
 
   <!-- First Parallax Image with Logo Text -->
   <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
@@ -89,14 +55,8 @@
     </div>
   </div>
 
-  <!-- Modal for full size images on click-->
-  <div id="index-modal" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
-    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
-    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-      <img id="img01" class="w3-image">
-      <p id="caption"></p>
-    </div>
-  </div>
+  <!-- INCLUDE LIGHTBOX -->
+  <?php include 'modules/homeLightbox.php' ?>
 
   <!-- PORTFOLIO SECTION -->
   <div id="portfolio" class="w3-padding-64">
@@ -108,7 +68,7 @@
     <div class="w3-row-padding w3-margin-top">
       <div class="w3-third">
         <div class="w3-card cardhover">
-          <img class="imgcard" src="assets/gallery/flowers/Flower-4.png" onclick="indexDisplay(this)">
+          <!-- <img class="imgcard" src="assets/gallery/flowers/Flower-4.png" onclick="indexDisplay(this)"> -->
           <div class="w3-container">
             <h5>5 Terre</h5>
           </div>
@@ -116,7 +76,7 @@
       </div>
       <div class="w3-third">
         <div class="w3-card cardhover">
-          <img class="imgcard" src="assets/gallery/flowers/Flower-11.png" onclick="indexDisplay(this)">
+          <!-- <img class="imgcard" src="assets/gallery/flowers/Flower-11.png" onclick="indexDisplay(this)"> -->
           <div class="w3-container">
             <h5>5 Terre</h5>
           </div>
@@ -124,7 +84,7 @@
       </div>
       <div class="w3-third">
         <div class="w3-card cardhover">
-          <img class="imgcard" src="assets/gallery/flowers/Flower-17.png" onclick="indexDisplay(this)">
+          <!-- <img class="imgcard" src="assets/gallery/flowers/Flower-17.png" onclick="indexDisplay(this)"> -->
           <div class="w3-container">
             <h5>5 Terre</h5>
           </div>
@@ -136,7 +96,7 @@
     <div class="w3-row-padding w3-margin-top">
       <div class="w3-third">
         <div class="w3-card cardhover">
-          <img class="imgcard" src="assets/gallery/landscape/Landscape-16.png" onclick="indexDisplay(this)">
+          <!-- <img class="imgcard" src="assets/gallery/landscape/Landscape-16.png" onclick="indexDisplay(this)"> -->
           <div class="w3-container">
             <h5>5 Terre</h5>
           </div>
@@ -144,7 +104,7 @@
       </div>
       <div class="w3-third">
         <div class="w3-card cardhover">
-          <img class="imgcard" src="assets/gallery/landscape/Landscape-14.png" onclick="indexDisplay(this)">
+          <!-- <img class="imgcard" src="assets/gallery/landscape/Landscape-14.png" onclick="indexDisplay(this)"> -->
           <div class="w3-container">
             <h5>5 Terre</h5>
           </div>
@@ -152,7 +112,7 @@
       </div>
       <div class="w3-third">
         <div class="w3-card cardhover">
-          <img class="imgcard" src="assets/gallery/landscape/Landscape-13.png" onclick="indexDisplay(this)">
+          <!-- <img class="imgcard" src="assets/gallery/landscape/Landscape-13.png" onclick="indexDisplay(this)"> -->
           <div class="w3-container">
             <h5>5 Terre</h5>
           </div>
@@ -162,7 +122,7 @@
 
     <!-- Button for more images -->
     <div class="w3-row-padding w3-center w3-section">
-      <a href="/photos.html"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD
+      <a href="/gallery.php"><button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD
           MORE</button></a>
     </div>
 
@@ -196,12 +156,8 @@
     </div>
   </div>
 
-  <!-- FOOTER -->
-  <footer class="w3-center w3-black w3-padding-64 w3-opacity">
-    <div class="w3-xlarge w3-section">
-    </div>
-    <p>&copy VAPhotography 2020</p>
-  </footer>
+  <!-- INCLUDE FOOTER -->
+  <?php include 'modules/footer.php';?>
 
   <script src="js/main.js"></script>
 </body>
