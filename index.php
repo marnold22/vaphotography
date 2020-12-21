@@ -19,18 +19,12 @@
 
   <!-- ABOUT SECTION -->
   <div id="about" class="w3-content w3-container w3-padding-64">
-    <h3 class="w3-center">ABOUT ME</h3>
-    <p class="w3-center"><em>I love photography</em></p>
-    <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla. Cras
-      justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Maecenas
-      sed diam eget risus varius blandit sit amet non magna. Cras mattis consectetur purus sit amet fermentum. Integer
-      posuere erat a ante venenatis dapibus posuere velit aliquet. Donec ullamcorper nulla non metus auctor fringilla.
-      Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus, tellus ac cursus
-      commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vestibulum id ligula porta felis
-      euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis
-      interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent commodo
-      cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
-      auctor. Donec sed odio dui.</p>
+    <!-- <h3 class="w3-center">ABOUT ME</h3> -->
+    <p class="w3-center w3-xxlarge quote">
+      <span style="font-size:100px">&#10077;</span><br>
+      <em>"In photography there is a reality so subtle that it becomes more real than reality." - Alfred Stieglitz.</em>
+    </p>
+    <p></p>
   </div>
 
   <div class="w3-row w3-center w3-dark-grey w3-padding-16">

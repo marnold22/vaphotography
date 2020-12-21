@@ -69,6 +69,10 @@ body, html {
   min-height: 60%;
 }
 
+.quote {
+  margin-top:-60px
+}
+
 .imgcard {
   object-fit: cover;
   width: 100%;
