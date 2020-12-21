@@ -91,13 +91,11 @@
       <div class="w3-col m6 w3-container">
         <img src="assets/img/map-1.jpg" class="w3-image w3-round">
       </div>
-      <div class="w3-col m6 w3-panel">
+      <div id="contactInfo" class="w3-col m6 w3-panel">
         <div class="w3-large w3-margin-bottom">
-          <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Location: Washington,
-          US<br>
-          <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Phone: 509.123.1234<br>
-          <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Email:
-          vaphotography@gmail.com<br>
+          <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Location: <p>Washington, US</p>
+          <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Phone: <p>509.123.1234</p>
+          <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Email: <p>vaphotography@gmail.com</p>
         </div>
       </div>
     </div>

@@ -77,17 +77,23 @@ function mobileScaling(x) {
   if (x.matches) { // If media query matches
     var vaBanner = document.getElementById("va-banner");
     vaBanner.classList.remove("w3-xlarge");
+
     var navHome = document.getElementById("navHome");
     navHome.classList.remove("navBackground");
     navHome.classList.add("w3-dark-grey");
 
+    var contactInfo = document.getElementById("contactInfo");
+    contactInfo.classList.add("w3-center")
   } else {
     var vaBanner = document.getElementById("va-banner");
     vaBanner.classList.add("w3-xlarge");
+
     var navHome = document.getElementById("navHome");
     navHome.classList.remove("w3-dark-grey");
     navHome.classList.add("navBackground");
 
+    var contactInfo = document.getElementById("contactInfo");
+    contactInfo.classList.remove("w3-center")
   }
 }
 
