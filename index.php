@@ -78,25 +78,28 @@
 
   <!-- CONTACT SECTION -->
   <div id="contact" class="w3-content w3-container w3-padding-64">
-    <h3 class="w3-center">Contact Me!</h3>
-    <p class="w3-center"><em>I'd love your feedback!</em></p>
 
-    <div class="w3-row w3-padding-32 w3-section">
-      <div class="w3-col m6 w3-container">
-        <img src="assets/img/map-1.jpg" class="w3-image w3-round">
-      </div>
-      <div id="contactInfo" class="w3-col m6 w3-panel">
-        <div class="w3-large w3-margin-bottom">
-          <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Location: <p>Washington, US</p>
-          <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Phone: <p>509.123.1234</p>
-          <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Email: <p>vaphotography@gmail.com</p>
+    <div class="w3-card-3 w3-hover-shadow w3-dark-grey w3-padding-large">
+      <h3 class="w3-center">Contact Me!</h1>
+        <p class="w3-center"><em>I'd love your feedback!</em></p>
+        <p></p>
+
+        <div class="w3-center">
+          <div class="w3-row">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <p style="display: inline-block;"> Spokane, Washington</p>
+          </div>
+
+          <div class="w3-row">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <p style="display: inline-block;"> vaphotography@gmail.com</p>
+          </div>
         </div>
-      </div>
     </div>
   </div>
 
   <!-- INCLUDE FOOTER -->
-  <?php include 'modules/footer.php';?>
+  <?php include 'modules/footer.php'; ?>
 
   <script src="js/main.js"></script>
 </body>

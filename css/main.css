@@ -65,13 +65,17 @@ body, html {
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url('/assets/img/camera-5.jpg');
+  background-image: url('/assets/img/map.jpg');
   min-height: 60%;
 }
 
 .quote {
   margin-top:-60px
 }
+
+/* .contactinfo {
+
+} */
 
 .imgcard {
   object-fit: cover;
