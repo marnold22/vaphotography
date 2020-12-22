@@ -73,9 +73,24 @@ body, html {
   margin-top:-60px
 }
 
-/* .contactinfo {
+.contact-info {
+  display: inline-block;
+  font-size: 20px;
+}
 
-} */
+.left-box {
+  border-left: solid;
+  border-width: thin;
+}
+
+.right-box {
+  border-right: solid;
+  border-width: thin;
+}
+
+.icon-spacing {
+  padding-right: 12px;;
+}
 
 .imgcard {
   object-fit: cover;
@@ -103,5 +118,17 @@ body, html {
   .bgimg-2, .bgimg-3 {
     background-attachment: scroll;
     min-height: 400px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .left-box {
+    border: solid;
+    border-width: thin;
+  }
+  
+  .right-box {
+    border: solid;
+    border-width: thin;
   }
 }

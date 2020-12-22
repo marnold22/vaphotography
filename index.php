@@ -79,23 +79,22 @@
   <!-- CONTACT SECTION -->
   <div id="contact" class="w3-content w3-container w3-padding-64">
 
-    <div class="w3-card-3 w3-hover-shadow w3-dark-grey w3-padding-large">
-      <h3 class="w3-center">Contact Me!</h1>
-        <p class="w3-center"><em>I'd love your feedback!</em></p>
-        <p></p>
-
-        <div class="w3-center">
-          <div class="w3-row">
-            <i class="fa fa-map-marker" aria-hidden="true"></i>
-            <p style="display: inline-block;"> Spokane, Washington</p>
+  <div class="w3-card-3 w3-hover-shadow w3-dark-grey w3-padding-large">
+    <h3 class="w3-center">Contact Me!</h1>
+      <p class="w3-center"><em>I'd love your feedback!</em></p>
+      <div class="w3-center">
+        <div class="w3-row">
+          <div class="w3-half right-box">
+            <i class="fa fa-map-marker fa-lg icon-spacing" aria-hidden="true"></i>
+            <p class="contact-info"> Spokane, Washington</p>
           </div>
-
-          <div class="w3-row">
-            <i class="fa fa-envelope" aria-hidden="true"></i>
-            <p style="display: inline-block;"> vaphotography@gmail.com</p>
+          <div class="w3-half left-box">
+            <i class="fa fa-envelope fa-lg icon-spacing" aria-hidden="true"></i>
+            <p class="contact-info"> vaphotography@gmail.com</p>
           </div>
         </div>
-    </div>
+      </div>
+  </div>
   </div>
 
   <!-- INCLUDE FOOTER -->
