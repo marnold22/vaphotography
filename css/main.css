@@ -53,13 +53,13 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('/assets/img/mountain.jpg');
+  background-image: url('/assets/img/home-mountain.jpg');
   min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url('/assets/img/camera-3.jpg');
+  background-image: url('/assets/img/home-sunflower.jpg');
   min-height: 60%;
 }
 
