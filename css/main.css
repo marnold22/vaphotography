@@ -81,14 +81,28 @@ body, html {
 /* Second image (Portfolio) */
 .bgimg-2 {
   background-image: url('/assets/img/home-sunflower.jpg');
-  min-height: 60%;
+  min-height: 65%;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
   background-image: url('/assets/img/map.jpg');
-  min-height: 60%;
+  min-height: 81%;
 }
+
+.bgimg-3::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0,0,0,0.45);
+}
+
+/* #portfolio {
+  min-height: 70vh;
+} */
 
 .quote {
   margin-top:-60px
@@ -116,23 +130,9 @@ body, html {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-.contact-info {
-  display: inline-block;
-  font-size: 20px;
-}
-
-.left-box {
-  border-left: solid;
-  border-width: thin;
-}
-
-.right-box {
-  border-right: solid;
-  border-width: thin;
-}
-
-.icon-spacing {
-  padding-right: 12px;;
+.contact-text {
+  letter-spacing: 3px;
+  font-size: 1.2rem;
 }
 
 .imgcard {

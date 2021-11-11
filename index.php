@@ -32,7 +32,6 @@
 
   <!-- ABOUT SECTION -->
   <div id="about" class="w3-content w3-container w3-padding-64 fc-dark">
-    <!-- <h3 class="w3-center">ABOUT ME</h3> -->
     <p class="w3-center w3-xxlarge quote">
       <span style="font-size:100px">&#10077;</span><br>
       <em>"In photography there is a reality so subtle that it becomes more real than reality." - Alfred Stieglitz.</em>
@@ -154,42 +153,26 @@
   </div>
 
   <!-- Third Parallax Image with Portfolio Text -->
-  <div class="bgimg-3 w3-display-container w3-opacity-min">
-    <div class="w3-display-middle">
+  <div id="contact" class="bgimg-3 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle w3-center">
       <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
-    </div>
-  </div>
-
-  <!-- CONTACT SECTION -->
-  <div id="contact" class="w3-content w3-container w3-padding-64">
-
-    <div class="w3-card-3 w3-hover-shadow w3-padding-large bg-grey">
-      <h3 class="w3-center">Contact Me!</h3>
-        <p class="w3-center"><em>I'd love your feedback!</em></p>
-        <div class="w3-center">
-          <div class="w3-row">
-            <div class="w3-half right-box">
-              <i class="fa fa-map-marker fa-lg icon-spacing" aria-hidden="true"></i>
-              <p class="contact-info"> Spokane, Washington</p>
-            </div>
-            <div class="w3-half left-box">
-              <i class="fa fa-envelope fa-lg icon-spacing" aria-hidden="true"></i>
-              <p class="contact-info"> vaphotography@gmail.com</p>
-            </div>
-          </div>
-        </div>
+      <div class="w3-col w3-center">
+        <p class="contact-text">I'd love your feedback!</p>
+        <p class="contact-text">Spokane, Washington</p>
+        <p class="contact-text">vaphotography@gmail.com</p>
+      </div>
     </div>
   </div>
 
   <!-- INCLUDE FOOTER -->
   <footer class="w3-center w3-padding-64 bg-grey">
-    <div class="w3-xlarge w3-section"></div>
-    <p>
+    <p class="contact-text">
       &copy VAPhotography
       <script>
         document.write(new Date().getFullYear())
       </script>
     </p>
+
   </footer>
 
   <script src="js/main.js"></script>
