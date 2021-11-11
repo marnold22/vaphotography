@@ -164,7 +164,7 @@
   <div id="contact" class="w3-content w3-container w3-padding-64">
 
     <div class="w3-card-3 w3-hover-shadow w3-padding-large bg-grey">
-      <h3 class="w3-center">Contact Me!</h1>
+      <h3 class="w3-center">Contact Me!</h3>
         <p class="w3-center"><em>I'd love your feedback!</em></p>
         <div class="w3-center">
           <div class="w3-row">
