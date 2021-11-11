@@ -64,6 +64,10 @@ body, html {
   transition: background-color 400ms linear;
 }
 
+.galleryNav {
+  text-decoration: none;
+}
+
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
   background-attachment: fixed;
