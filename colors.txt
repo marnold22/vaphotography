@@ -1,0 +1,8 @@
+  /* Background Grey Variable */
+  --bg-grey: #2e2e2e;
+
+  /* Light Font Color */
+  --fc-light: #dedede;
+
+  /* Dark Font Color */
+  --fc-dark: #787878;
