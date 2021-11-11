@@ -77,79 +77,79 @@
     <p class="w3-center"><em>Here are some of my latest pieces of work!<br> Click on the images to make them larger</em>
     </p><br>
 
-  <!-- INCLUDE GALLERY -->
-  <!-- Row 1 of Cards -->
-  <div class="w3-row-padding w3-margin-top">
+    <!-- INCLUDE GALLERY -->
+    <!-- Row 1 of Cards -->
+    <div class="w3-row-padding w3-margin-top">
       <div class="w3-quarter w3-margin-top">
-      <div class="w3-card cardhover">
+        <div class="w3-card cardhover">
           <img class="imgcard" src="assets/gallery/Flower-2.jpg" onclick="indexDisplay(this)">
           <div class="w3-container">
           </div>
-      </div>
+        </div>
       </div>
       <div class="w3-quarter w3-margin-top">
-      <div class="w3-card cardhover">
+        <div class="w3-card cardhover">
           <img class="imgcard" src="assets/gallery/Landscape-8.jpg" onclick="indexDisplay(this)">
           <div class="w3-container">
           </div>
-      </div>
+        </div>
       </div>
       <div class="w3-quarter w3-margin-top">
-      <div class="w3-card cardhover">
+        <div class="w3-card cardhover">
           <img class="imgcard" src="assets/gallery/Flower-11.jpg" onclick="indexDisplay(this)">
           <div class="w3-container">
           </div>
-      </div>
+        </div>
       </div>
       <div class="w3-quarter w3-margin-top">
-      <div class="w3-card cardhover">
+        <div class="w3-card cardhover">
           <img class="imgcard" src="assets/gallery/Other-3.jpg" onclick="indexDisplay(this)">
           <div class="w3-container">
           </div>
+        </div>
       </div>
-      </div>
-  </div>
+    </div>
 
-  <!-- Row 2 of Cards -->
-  <div class="w3-row-padding w3-margin-top">
+    <!-- Row 2 of Cards -->
+    <div class="w3-row-padding w3-margin-top">
       <div class="w3-quarter w3-margin-top">
-      <div class="w3-card cardhover">
+        <div class="w3-card cardhover">
           <img class="imgcard" src="assets/gallery/Flower-7.jpg" onclick="indexDisplay(this)">
           <div class="w3-container">
           </div>
-      </div>
+        </div>
       </div>
       <div class="w3-quarter w3-margin-top">
-      <div class="w3-card cardhover">
+        <div class="w3-card cardhover">
           <img class="imgcard" src="assets/gallery/Landscape-13.jpg" onclick="indexDisplay(this)">
           <div class="w3-container">
           </div>
-      </div>
+        </div>
       </div>
       <div class="w3-quarter w3-margin-top">
-      <div class="w3-card cardhover">
+        <div class="w3-card cardhover">
           <img class="imgcard" src="assets/gallery/Landscape-15.jpg" onclick="indexDisplay(this)">
           <div class="w3-container">
           </div>
-      </div>
+        </div>
       </div>
       <div class="w3-quarter w3-margin-top">
-      <div class="w3-card cardhover">
+        <div class="w3-card cardhover">
           <img class="imgcard" src="assets/gallery/Other-1.jpg" onclick="indexDisplay(this)">
           <div class="w3-container">
           </div>
+        </div>
       </div>
-      </div>
-  </div>
+    </div>
 
-  <!-- Button for more images -->
-  <div class="w3-row-padding w3-center w3-section">
-    <a href="/gallery.php">
-      <button class="custom-btn" style="margin-top:64px">
-        LOAD MORE
-      </button>
-    </a>
-  </div>
+    <!-- Button for more images -->
+    <div class="w3-row-padding w3-center w3-section">
+      <a href="/gallery.php">
+        <button class="custom-btn" style="margin-top:64px">
+          LOAD MORE
+        </button>
+      </a>
+    </div>
 
   </div>
 
@@ -185,8 +185,10 @@
   <footer class="w3-center w3-padding-64 bg-grey">
     <div class="w3-xlarge w3-section"></div>
     <p>
-      &copy VAPhotography 
-      <script>document.write(new Date().getFullYear())</script>
+      &copy VAPhotography
+      <script>
+        document.write(new Date().getFullYear())
+      </script>
     </p>
   </footer>
 
