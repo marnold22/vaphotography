@@ -38,7 +38,7 @@
     </p><br>
 
     <!-- INCLUDE GALLERY -->
-    <?php include 'modules/galleryGallery.php'; ?>
+    <?php include 'modules/responsiveGallery.php'; ?>
 
     <!-- GALLERY END -->
   </div>
