@@ -7,7 +7,7 @@
 <body>
   <!-- Navbar (sit on top) -->
   <div class="w3-top">
-    <div id="navGallery" class="w3-bar w3-large bg-grey">
+    <div id="navGallery" class="w3-bar w3-large bg-grey w3-card-4">
       <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" onclick="toggleMobileMenu()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
       <a class="w3-hide-medium w3-hide-large" onClick="window.scroll({ top: 0,left: 0,behavior: 'smooth' });"><img class="logo-mobile" src="/assets/logo/VAP-Logo-White.png"></a>
       <a class="w3-bar-item w3-hide-small w3-right galleryNav" href="index.php">HOME</a>
