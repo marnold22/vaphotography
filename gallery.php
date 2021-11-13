@@ -37,8 +37,14 @@
     <p class="w3-center"><em>Here are some of my latest pieces of work!<br> Click on the images to make them larger</em>
     </p><br>
 
-    <!-- INCLUDE GALLERY -->
-    <?php include 'modules/responsiveGallery.php'; ?>
+    <div id="gallery">
+      <?php
+        for ($i = 0; $i <= 195; $i++)
+        {
+          echo ("<img src='assets/gallery/($i).jpg'>");
+        }
+      ?>
+    </div>
 
     <!-- GALLERY END -->
   </div>
