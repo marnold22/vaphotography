@@ -196,7 +196,7 @@
     </div>
   </div>
 
-  <!-- INCLUDE FOOTER -->
+  <!-- FOOTER -->
   <footer class="w3-center w3-padding-64 bg-grey">
     <p class="contact-text">
       &copy VAPhotography

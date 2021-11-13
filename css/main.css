@@ -113,9 +113,9 @@ body, html {
 }
 
 .custom-btn {
-  background-color: var(--bg-grey);
-  color: var(--fc-light);
-  border: 2px solid var(--bg-grey);
+  background-color: var(--fc-light);
+  color: var(--bg-grey);
+  border: 2px solid var(--fc-light);
   border-radius: 8px;
   padding: 16px 32px;
   text-align: center;
@@ -128,8 +128,8 @@ body, html {
 }
 
 .custom-btn:hover {
-  background-color: #fff;
-  color: var(--fc-dark);
+  background-color: var(--fc-dark);
+  color: var(--fc-light);
   border: 2px solid var(--fc-dark);
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
@@ -149,6 +149,13 @@ body, html {
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);
+  transition: 200ms linear;
+}
+
+.galleryHover:hover {
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
   transition: 200ms linear;
 }
 
