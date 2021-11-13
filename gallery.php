@@ -32,7 +32,7 @@
 
 
   <!-- GALLERY START -->
-  <div class="w3-padding-64 fc-dark">
+  <div class="w3-padding-64 fc-light bg-grey">
     <h1 class="w3-center">MY GALLERY</h1>
     <p class="w3-center"><em>Here are some of my latest pieces of work!<br> Click on the images to make them larger</em>
     </p><br>

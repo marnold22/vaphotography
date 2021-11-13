@@ -71,7 +71,7 @@
   </div>
 
   <!-- PORTFOLIO SECTION -->
-  <div id="portfolio" class="w3-padding-64 fc-dark">
+  <div id="portfolio" class="w3-padding-64 fc-light bg-grey">
     <h3 class="w3-center">MY WORK</h3>
     <p class="w3-center"><em>Here are some of my latest pieces of work!<br> Click on the images to make them larger</em>
     </p><br>
