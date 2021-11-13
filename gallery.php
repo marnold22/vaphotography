@@ -43,24 +43,23 @@
         {
           echo
           (
-            "<img class='' src='assets/gallery/($i).jpg' onclick='galleryDisplay(this)'>"
+            "<img class='galleryHover' src='assets/gallery/($i).jpg' onclick='galleryDisplay(this)'>"
           );
         }
       ?>
     </div>
-
-    <!-- GALLERY END -->
   </div>
+  <!-- GALLERY END -->
 
-  <!-- INCLUDE FOOTER -->
+  <!-- FOOTER -->
   <footer class="w3-center w3-padding-64 bg-grey">
-    <div class="w3-xlarge w3-section"></div>
-    <p>
+    <p class="contact-text">
       &copy VAPhotography
       <script>
         document.write(new Date().getFullYear())
       </script>
     </p>
+
   </footer>
 
   <script src="js/gallery.js"></script>
