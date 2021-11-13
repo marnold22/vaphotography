@@ -41,7 +41,10 @@
       <?php
         for ($i = 0; $i <= 195; $i++)
         {
-          echo ("<img src='assets/gallery/($i).jpg'>");
+          echo
+          (
+            "<img class='' src='assets/gallery/($i).jpg' onclick='galleryDisplay(this)'>"
+          );
         }
       ?>
     </div>
