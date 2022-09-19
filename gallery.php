@@ -39,7 +39,7 @@
 
     <div id="gallery">
       <?php
-        for ($i = 0; $i <= 195; $i++)
+        for ($i = 0; $i <= 261; $i++)
         {
           echo
           (
