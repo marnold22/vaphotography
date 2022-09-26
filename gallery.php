@@ -2,7 +2,7 @@
 <html>
 
 <!-- INCLUDE HEADER -->
-<?php include 'modules/header.php' ?>
+<?php include 'header.php' ?>
 
 <body>
   <!-- Navbar (sit on top) -->
@@ -57,15 +57,7 @@
   <!-- GALLERY END -->
 
   <!-- FOOTER -->
-  <footer class="w3-center w3-padding-64 bg-grey">
-    <p class="contact-text">
-      &copy VAPhotography
-      <script>
-        document.write(new Date().getFullYear())
-      </script>
-    </p>
-
-  </footer>
+  <?php include 'footer.php' ?>
 
   <script src="js/gallery.js"></script>
 </body>

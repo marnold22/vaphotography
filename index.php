@@ -2,7 +2,7 @@
 <html>
 
 <!-- INCLUDE HEADER -->
-<?php include 'modules/header.php' ?>
+<?php include 'header.php' ?>
 
 <body>
 
@@ -23,7 +23,8 @@
       <a class="w3-bar-item w3-button" onclick="portfolioMobile()">GALLERY</a>
       <a class="w3-bar-item w3-button" onclick="contactMobile()">CONTACT</a>
     </div>
-  </div <!-- First Parallax Image with Logo Text -->
+  </div> 
+  <!-- First Parallax Image with Logo Text -->
   <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
     <div class="w3-display-middle" style="white-space:nowrap;">
       <span id="va-banner" class="w3-center w3-padding-large w3-black w3-wide w3-animate-opacity">VA_PHOTOGRAPHY</span>
@@ -197,15 +198,7 @@
   </div>
 
   <!-- FOOTER -->
-  <footer class="w3-center w3-padding-64 bg-grey">
-    <p class="contact-text">
-      &copy VAPhotography
-      <script>
-        document.write(new Date().getFullYear())
-      </script>
-    </p>
-
-  </footer>
+  <?php include 'footer.php' ?>
 
   <script src="js/main.js"></script>
 </body>
