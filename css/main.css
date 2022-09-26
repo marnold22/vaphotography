@@ -153,12 +153,12 @@ body, html {
   transition: 200ms linear;
 }
 
-.galleryHover:hover {
+/* .galleryHover:hover {
   -webkit-transform: scale(1.03);
   -ms-transform: scale(1.03);
   transform: scale(1.03);
   transition: 200ms linear;
-}
+} */
 
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
