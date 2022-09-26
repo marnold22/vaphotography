@@ -81,28 +81,28 @@
     <div class="w3-row-padding w3-margin-top">
       <div class="w3-quarter w3-margin-top">
         <div class="w3-card cardhover">
-          <img class="imgcard" src="assets/gallery/(85).jpg" onclick="indexDisplay(this)">
+          <img class="imgcard" src="assets/gallery/no-compression/(85).jpg" onclick="indexDisplay(this)">
           <div class="w3-container">
           </div>
         </div>
       </div>
       <div class="w3-quarter w3-margin-top">
         <div class="w3-card cardhover">
-          <img class="imgcard" src="assets/gallery/(87).jpg" onclick="indexDisplay(this)">
+          <img class="imgcard" src="assets/gallery/no-compression/(87).jpg" onclick="indexDisplay(this)">
           <div class="w3-container">
           </div>
         </div>
       </div>
       <div class="w3-quarter w3-margin-top">
         <div class="w3-card cardhover">
-          <img class="imgcard" src="assets/gallery/(102).jpg" onclick="indexDisplay(this)">
+          <img class="imgcard" src="assets/gallery/no-compression/(102).jpg" onclick="indexDisplay(this)">
           <div class="w3-container">
           </div>
         </div>
       </div>
       <div class="w3-quarter w3-margin-top">
         <div class="w3-card cardhover">
-          <img class="imgcard" src="assets/gallery/(89).jpg" onclick="indexDisplay(this)">
+          <img class="imgcard" src="assets/gallery/no-compression/(89).jpg" onclick="indexDisplay(this)">
           <div class="w3-container">
           </div>
         </div>
@@ -113,28 +113,28 @@
     <div class="w3-row-padding w3-margin-top">
       <div class="w3-quarter w3-margin-top">
         <div class="w3-card cardhover">
-          <img class="imgcard" src="assets/gallery/(97).jpg" onclick="indexDisplay(this)">
+          <img class="imgcard" src="assets/gallery/no-compression/(97).jpg" onclick="indexDisplay(this)">
           <div class="w3-container">
           </div>
         </div>
       </div>
       <div class="w3-quarter w3-margin-top">
         <div class="w3-card cardhover">
-          <img class="imgcard" src="assets/gallery/(122).jpg" onclick="indexDisplay(this)">
+          <img class="imgcard" src="assets/gallery/no-compression/(122).jpg" onclick="indexDisplay(this)">
           <div class="w3-container">
           </div>
         </div>
       </div>
       <div class="w3-quarter w3-margin-top">
         <div class="w3-card cardhover">
-          <img class="imgcard" src="assets/gallery/(88).jpg" onclick="indexDisplay(this)">
+          <img class="imgcard" src="assets/gallery/no-compression/(88).jpg" onclick="indexDisplay(this)">
           <div class="w3-container">
           </div>
         </div>
       </div>
       <div class="w3-quarter w3-margin-top">
         <div class="w3-card cardhover">
-          <img class="imgcard" src="assets/gallery/(146).jpg" onclick="indexDisplay(this)">
+          <img class="imgcard" src="assets/gallery/no-compression/(146).jpg" onclick="indexDisplay(this)">
           <div class="w3-container">
           </div>
         </div>
@@ -145,28 +145,28 @@
     <div class="w3-row-padding w3-margin-top">
       <div class="w3-quarter w3-margin-top">
         <div class="w3-card cardhover">
-          <img class="imgcard" src="assets/gallery/(31).jpg" onclick="indexDisplay(this)">
+          <img class="imgcard" src="assets/gallery/no-compression/(31).jpg" onclick="indexDisplay(this)">
           <div class="w3-container">
           </div>
         </div>
       </div>
       <div class="w3-quarter w3-margin-top">
         <div class="w3-card cardhover">
-          <img class="imgcard" src="assets/gallery/(63).jpg" onclick="indexDisplay(this)">
+          <img class="imgcard" src="assets/gallery/no-compression/(63).jpg" onclick="indexDisplay(this)">
           <div class="w3-container">
           </div>
         </div>
       </div>
       <div class="w3-quarter w3-margin-top">
         <div class="w3-card cardhover">
-          <img class="imgcard" src="assets/gallery/(42).jpg" onclick="indexDisplay(this)">
+          <img class="imgcard" src="assets/gallery/no-compression/(42).jpg" onclick="indexDisplay(this)">
           <div class="w3-container">
           </div>
         </div>
       </div>
       <div class="w3-quarter w3-margin-top">
         <div class="w3-card cardhover">
-          <img class="imgcard" src="assets/gallery/(131).jpg" onclick="indexDisplay(this)">
+          <img class="imgcard" src="assets/gallery/no-compression/(131).jpg" onclick="indexDisplay(this)">
           <div class="w3-container">
           </div>
         </div>
