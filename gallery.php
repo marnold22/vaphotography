@@ -43,7 +43,7 @@
         // Then iterate through creating an image tag for each picture
         // Start the counting at the max number of pictures and descende that way newest images are on top of the gallery
 
-        $i = count(glob("assets/gallery/no-compression/*.jpg"))-1;
+        $i = count(glob("assets/gallery/compression/*.jpg"))-1;
         while( $i >= 0 ) {
           echo
             (
