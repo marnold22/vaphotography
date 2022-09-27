@@ -48,7 +48,7 @@
         while( $i >= 0 ) {
           echo
             (
-              "<li><img loading='lazy' src='assets/gallery/($i).jpg' onclick='galleryDisplay(this)'></li>"
+              "<li><img src='assets/gallery/($i).jpg' onclick='galleryDisplay(this)'></li>"
             );
             $i--;
         }
