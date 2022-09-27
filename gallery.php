@@ -44,11 +44,11 @@
         // Then iterate through creating an image tag for each picture
         // Start the counting at the max number of pictures and descende that way newest images are on top of the gallery
 
-        $i = count(glob("assets/gallery/compression/*.jpg"))-1;
+        $i = count(glob("assets/gallery/*.jpg"))-1;
         while( $i >= 0 ) {
           echo
             (
-              "<li><img loading='lazy' src='assets/gallery/compression/($i).jpg' onclick='galleryDisplay(this)'></li>"
+              "<li><img loading='lazy' src='assets/gallery/($i).jpg' onclick='galleryDisplay(this)'></li>"
             );
             $i--;
         }
