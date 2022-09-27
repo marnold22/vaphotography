@@ -37,8 +37,8 @@
     <p class="w3-center"><em>Here are some of my latest pieces of work!<br> Click on the images to make them larger</em>
     </p><br>
 
-    <!-- <div id="gallery"> -->
-      <ul class="image-gallery">
+    <div id="gallery">
+      <!-- <ul class="image-gallery"> -->
       <?php
         // count the number of pictures in the gallery folder
         // Then iterate through creating an image tag for each picture
@@ -48,13 +48,13 @@
         while( $i >= 0 ) {
           echo
             (
-              "<li><img src='assets/gallery/($i).jpg' onclick='galleryDisplay(this)'></li>"
+              "<img src='assets/gallery/($i).jpg' onclick='galleryDisplay(this)'>"
             );
             $i--;
         }
       ?>
-      </ul>
-    <!-- </div> -->
+      <!-- </ul> -->
+    </div>
   </div>
   <!-- GALLERY END -->
 

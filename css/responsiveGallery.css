@@ -1,4 +1,4 @@
-/* #gallery {
+#gallery {
     line-height:0;
     -webkit-column-count:2;
     -webkit-column-gap:15px;
@@ -44,9 +44,9 @@
      -webkit-column-count: 1;
      column-count:         1;
     }
- } */
+ }
 
-ul {
+/* ul {
    list-style-type: none;
    padding: 0;
    padding-left: 10px;
@@ -61,7 +61,6 @@ ul {
 
 .image-gallery>li {
    flex: 1 1 auto;
-   /* or flex: auto; */
    height: 300px;
    cursor: pointer;
    position: relative;
@@ -78,4 +77,4 @@ ul {
    height: 100%;
    vertical-align: middle;
    border-radius: 5px;
-}
+} */
