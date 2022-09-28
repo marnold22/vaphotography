@@ -35,38 +35,36 @@
     <h1 class="w3-center">MY GALLERY</h1>
     <p class="w3-center"><em>Here are some of my latest pieces of work!<br> Click on the images to make them larger</em>
     </p><br>
-
-    <?php
-    // count the number of pictures in the gallery folder
-    $num_pics = count(glob("assets/gallery/*.jpg")) - 1;
-
-    // Loop through and make the cards
-    $pic_count = $num_pics;
-    $columns = 4;
-    $rows = ceil($num_pics / $columns);
-
-    for ($i = 0; $i <= $rows; $i++) {
-      echo ('<div class="w3-row-padding w3-margin-top">');
-      for ($j = 0; $j < 4; $j++) {
-        if ($pic_count >= 0) {
-          echo ("
-            <div class='w3-quarter w3-margin-top'>
-            <div class='w3-card cardhover'>
-            <img class='imgcard' src='assets/gallery/(" . $pic_count . ").jpg' onclick='galleryDisplay(this)'>
-            <div class='w3-container'>
-            </div>
-            </div>
-            </div>
-          ");
-          $pic_count = $pic_count - 1;
-        } else {
-          break;
-        }
-      }
-      echo ('</div>');
-    } ?>
-    
   </div>
+
+  <div class="gallery">
+    <ul id="paginated-list" class="image-gallery" data-current-page="1">
+      <?php
+      $img_count = count(glob('assets/gallery/*.jpg')) - 1;
+      for ($i = 0; $i <= $img_count; $i++) {
+        echo ("<li><img loading='lazy' class='galleryHover' src='assets/gallery/($i).jpg' onclick='galleryDisplay(this)'></li>");
+      }
+      ?>
+    </ul>
+
+    <nav class="pagination-container">
+      <button class="pagination-button" id="prev-button" aria-label="Previous page" title="Previous page">
+        &lt;
+      </button>
+
+      <div id="pagination-numbers">
+
+      </div>
+
+      <button class="pagination-button" id="next-button" aria-label="Next page" title="Next page">
+        &gt;
+      </button>
+    </nav>
+  </div>
+
+
+
+
   <!-- GALLERY END -->
 
   <!-- FOOTER -->
