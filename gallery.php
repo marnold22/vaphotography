@@ -30,7 +30,6 @@
     </div>
   </div>
 
-
   <!-- GALLERY START -->
   <div class="w3-padding-64 fc-light bg-grey">
     <h1 class="w3-center">MY GALLERY</h1>
