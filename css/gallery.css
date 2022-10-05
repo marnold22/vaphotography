@@ -78,3 +78,7 @@ ul {
   transform: scale(1.03);
   transition: 200ms linear;
 }
+
+.modal-height{
+  max-height: 80vh;
+}
