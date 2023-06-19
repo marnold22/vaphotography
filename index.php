@@ -192,7 +192,7 @@
       <div class="w3-col w3-center">
         <p class="contact-text">I'd love your feedback!</p>
         <p class="contact-text">Spokane, Washington</p>
-        <p class="contact-text">vaphotography@gmail.com</p>
+        <p class="contact-text">varnold.photography@gmail.com</p>
       </div>
     </div>
   </div>
