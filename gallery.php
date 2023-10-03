@@ -41,9 +41,9 @@
   <div class="gallery">
     <ul id="paginated-list" class="image-gallery" data-current-page="1">
       <?php
-      $img_count = count(glob('assets/gallery/compressed/*.jpg')) - 1;
+      $img_count = count(glob('assets/gallery/*.jpg')) - 1;
       for ($i = 0; $i <= $img_count; $i++) {
-        echo ("<li><img loading='lazy' class='galleryHover' src='assets/gallery/compressed/($i).jpg' onclick='galleryDisplay(this)'></li>");
+        echo ("<li><img loading='lazy' class='galleryHover' src='assets/gallery/($i).jpg' onclick='galleryDisplay(this)'></li>");
       }
       ?>
     </ul>
