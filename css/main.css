@@ -147,11 +147,15 @@ body, html {
   height: 250px;
 }
 
+.cardhover {
+  transition: 300ms linear;
+}
+
 .cardhover:hover {
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);
-  transition: 200ms linear;
+  transition: 300ms linear;
 }
 
 /* .galleryHover:hover {
