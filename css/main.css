@@ -29,6 +29,7 @@ body, html {
 .w3-bar-item {
   color: white;
   pointer-events: auto;
+  transition: 300ms linear;
 }
 
 .logo {
@@ -47,10 +48,10 @@ body, html {
 
 .w3-bar-item:hover {
   pointer-events: auto;
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-  transition: 200ms linear;
+  -webkit-transform: scale(1.08);
+  -ms-transform: scale(1.08);
+  transform: scale(1.08);
+  transition: 300ms linear;
 }
 
 .navBackground {
