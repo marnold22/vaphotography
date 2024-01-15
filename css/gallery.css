@@ -13,7 +13,7 @@ ul {
 .image-gallery {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
   }
   
   .image-gallery > li {
@@ -72,11 +72,15 @@ ul {
     background: var(--fc-dark);
 }
 
+.galleryHover{
+  transition: 300ms linear;
+}
+
 .galleryHover:hover {
   -webkit-transform: scale(1.03);
   -ms-transform: scale(1.03);
   transform: scale(1.03);
-  transition: 200ms linear;
+  transition: 300ms linear;
 }
 
 .modal-height{
