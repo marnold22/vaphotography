@@ -2,7 +2,7 @@
 <html>
 
 <!-- INCLUDE HEADER -->
-<?php include 'header.php' ?>
+<?php include ('header.php') ?>
 
 <body>
 
@@ -198,7 +198,7 @@
   </div>
 
   <!-- FOOTER -->
-  <?php include 'footer.php' ?>
+  <?php include('footer.php') ?>
 
   <script src="js/main.js"></script>
 </body>

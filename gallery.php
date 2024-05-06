@@ -2,7 +2,7 @@
 <html>
 
 <!-- INCLUDE HEADER -->
-<?php include 'header.php' ?>
+<?php include('header.php') ?>
 
 <body>
   <!-- Navbar (sit on top) -->
@@ -69,7 +69,7 @@
   <!-- GALLERY END -->
 
   <!-- FOOTER -->
-  <?php include 'footer.php' ?>
+  <?php include('footer.php') ?>
 
   <script src="js/gallery.js"></script>
 </body>
